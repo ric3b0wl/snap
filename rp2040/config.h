@@ -23,7 +23,7 @@
 /* split config */
 // #define SPLIT_USB_DETECT // Enable if you have issues with USB
 #define SOFT_SERIAL_PIN GP7
-#define SPLIT_HAND_PIN GP21
+#define SPLIT_HAND_PIN GP10
 
 /*
  * Keyboard Matrix Assignments
@@ -36,21 +36,21 @@
 #define MATRIX_COL_MUX_PINS { GP26, GP27, GP28 }
 
 //Right side
-#define MATRIX_ROW_PINS_RIGHT { GP29, GP28, GP27, GP26, GP22, GP20 }
+#define MATRIX_ROW_PINS_RIGHT { GP29, GP28, GP27, GP26, GP18, GP20 }
 #define MATRIX_COL_MUX_PINS_RIGHT { GP6, GP5, GP4 }
-#define MATRIX_EXT_PIN_RIGHT GP21
+#define MATRIX_EXT_PIN_RIGHT GP10
 
 /* Optional SMT LED pins */
-#define RGB_DI_PIN GP23
+#define RGB_DI_PIN GP19
 
 /* Optional encoder pins */
 #define ENCODERS_PAD_A { GP20 }
-#define ENCODERS_PAD_B { GP22 }
+#define ENCODERS_PAD_B { GP18 }
 #define ENCODERS_PAD_A_RIGHT { GP8 }
 #define ENCODERS_PAD_B_RIGHT { GP9 }
 
 /* Optional speaker pin */
-#define AUDIO_PIN GP21
+#define AUDIO_PIN GP10
 
 /* RP2040-specific defines*/
 #define RP2040_FLASH_W25X10CL
